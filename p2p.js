@@ -4,6 +4,7 @@ import Swarm from 'discovery-swarm'
 import defaults from 'dat-swarm-defaults'
 
 const chain = require("./chain");
+let CronJob = require('cron').CronJob;
 
 let MessageType = {
     REQUEST_BLOCK: 'requestBlock',
