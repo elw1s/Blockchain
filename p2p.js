@@ -1,9 +1,9 @@
 import getPort from 'get-port';
 import crypto from 'crypto';
-import Swarm from 'discovery-swarm'
-import defaults from 'dat-swarm-defaults'
+import Swarm from 'discovery-swarm';
+import defaults from 'dat-swarm-defaults';
 
-const chain = require("./chain");
+const chain = require("./chain.js");
 let CronJob = require('cron').CronJob;
 
 let MessageType = {
